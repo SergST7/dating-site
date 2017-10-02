@@ -1,10 +1,11 @@
-
-<section class="app">
+<!-- flex container displaying children as a column -->
+<section class="app flex-container" fxLayout="column" fxLayoutAlign="start stretch">
   <md-toolbar color="primary" class="mat-elevation-z10">
     Toolbar
   </md-toolbar>
 
-  <md-sidenav-container>
+  <!-- this flex item takes the rest of the screen in height -->
+  <md-sidenav-container fxFlex>
     <md-sidenav mode="side" align="end" opened class="mat-elevation-z6">
       details
     </md-sidenav>
