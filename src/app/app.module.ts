@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatToolbarModule,
          MatTabsModule,
+         MatIconModule,
          MatSidenavModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -24,6 +25,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MatToolbarModule,
     MatSidenavModule,
     MatTabsModule,
+    MatIconModule,
     BrowserAnimationsModule
   ],
   providers: [],
