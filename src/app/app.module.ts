@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // Add Material Design and Angular Flex Layout
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatToolbarModule,
+         MatTabsModule,
          MatSidenavModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     FlexLayoutModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatTabsModule,
     BrowserAnimationsModule
   ],
   providers: [],
