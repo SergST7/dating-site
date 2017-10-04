@@ -7,7 +7,8 @@ import { MatToolbarModule,
          MatTabsModule,
          MatIconModule,
          MatGridListModule,
-         MatSidenavModule} from '@angular/material';
+         MatSidenavModule,
+         MatCardModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import {HttpModule} from "@angular/http";
@@ -29,6 +30,7 @@ import {ModelsService} from "./models.service";
     MatTabsModule,
     MatIconModule,
     MatGridListModule,
+    MatCardModule,
     BrowserAnimationsModule
   ],
   providers: [ModelsService],
