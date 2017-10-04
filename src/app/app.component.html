@@ -18,7 +18,19 @@
     </md-sidenav>
 
     <md-grid-list cols="4" rowHeight="250px">
-      models will here
+      <md-grid-tile *ngFor="let model of models" [rowspan]="model.rows" [colspan]="model.cols">
+        <img src="assets/{{model.name}}.png" alt="model {{model.name}}">
+
+	      <!-- new footer! -->
+	      <md-grid-tile-footer>
+		      <h3 md-line>{{model.name}}</h3>
+		      <span md-line>{{model.status}}</span>
+		      <button md-icon-button (click)="showDetails(model)">
+			      <md-icon>info</md-icon>
+		      </button>
+	      </md-grid-tile-footer>
+
+      </md-grid-tile>
     </md-grid-list>
 
   </md-sidenav-container>
