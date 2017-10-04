@@ -23,3 +23,17 @@ md-sidenav {
 md-card {
   margin: 12px;
 }
+
+$md-toolbar-height: 64px;
+$md-tab-header-height: 48px;
+.mat-tab-body{
+  height: calc(100vh - #{$md-tab-header-height} - #{$md-toolbar-height});
+}
+
+.tab-actions{
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}

@@ -26,6 +26,11 @@
 							<md-card-content>{{selectedModel?.about}}</md-card-content>
 						</md-card>
 					</section>
+					<footer  class="tab-actions">
+						<button md-fab color="warn" (click)="sidenav.close()">
+							<md-icon>close</md-icon>
+						</button>
+					</footer >
 				</md-tab>
 				<md-tab label="Messages"></md-tab>
 				<md-tab label="Photos"></md-tab>
