@@ -12,20 +12,26 @@
 			<!-- adding some tabs for the details -->
 			<md-tab-group>
 				<md-tab label="About">
+
 					<section class="flex-container" fxLayout="column" fxLayoutAlign="start stretch">
+
 						<md-card>
 							<md-card-title>Name</md-card-title>
 							<md-card-content>{{selectedModel?.name}}</md-card-content>
 						</md-card>
+
 						<md-card>
 							<md-card-title>Status</md-card-title>
 							<md-card-content>{{selectedModel?.status}}</md-card-content>
 						</md-card>
+
 						<md-card>
 							<md-card-title>Bio</md-card-title>
 							<md-card-content>{{selectedModel?.about}}</md-card-content>
 						</md-card>
+
 					</section>
+
 					<footer  class="tab-actions">
 						<button md-fab color="warn" (click)="sidenav.close()">
 							<md-icon>close</md-icon>

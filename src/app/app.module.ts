@@ -9,7 +9,8 @@ import { MatToolbarModule,
          MatGridListModule,
          MatSidenavModule,
          MatButtonModule,
-         MatCardModule} from '@angular/material';
+         MatCardModule,
+         MatDialogModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import {HttpModule} from "@angular/http";
@@ -33,6 +34,7 @@ import {ModelsService} from "./models.service";
     MatGridListModule,
     MatCardModule,
     MatButtonModule,
+    MatDialogModule,
     BrowserAnimationsModule
   ],
   providers: [ModelsService],
